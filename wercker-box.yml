@@ -1,0 +1,15 @@
+name: sbt
+version: 0.13.6
+description: SBT on Ubuntu 12.04
+inherits: wercker/default@0.0.2
+type: main
+platform: ubuntu@12.04
+keywords:
+  - scala
+  - sbt
+script: |
+  sudo apt-get update -y
+  sudo apt-get install openjdk-7-jdk -y
+  sudo mkdir -p /tmp/wercker-sbt
+  sudo wget https://dl.bintray.com/sbt/debian/sbt-0.13.6.deb -O /tmp/wercker-sbt/sbt.deb
+  sudo dpkg -i /tmp/wercker-sbt/sbt.deb

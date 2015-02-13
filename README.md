@@ -1,7 +1,7 @@
 # Wercker BOX for SBT
 [![wercker status](https://app.wercker.com/status/d493371cbbfc3bed44867de7a15a869a/m "wercker status")](https://app.wercker.com/project/bykey/d493371cbbfc3bed44867de7a15a869a)
 
-Wercker Box for [SBT](http://www.scala-sbt.org/)
+Wercker Box for [SBT](http://www.scala-sbt.org/) on OpenJDK 7
 
 ## Versions of installed packages
 

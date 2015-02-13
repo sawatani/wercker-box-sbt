@@ -1,5 +1,5 @@
 name: SBT_OpenJDK7
-version: 1.0.1
+version: 0.0.3
 description: SBT on Java7
 inherits: wercker/default@0.0.2
 type: main
@@ -21,5 +21,5 @@ script: |
   sudo apt-get update -y
   sudo apt-get install -y sbt
 env:
-  IVY_CACHE_DIR: "$WERCKER_CACHE_DIR/ivy"
+  IVY_CACHE_DIR: ""$WERCKER_CACHE_DIR/ivy""
   SBT_OPTS: -XX:+UseConcMarkSweepGC -XX:+CMSClassUnloadingEnabled -XX:PermSize=256M -XX:MaxPermSize=512M

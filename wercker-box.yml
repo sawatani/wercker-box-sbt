@@ -1,10 +1,12 @@
 name: sbt
-version: 0.13.6
-description: SBT on Ubuntu 12.04
+version: 0.0.1
+description: SBT on Java7
 inherits: wercker/default@0.0.2
 type: main
 platform: ubuntu@12.04
 keywords:
+  - openjdk
+  - java7
   - scala
   - sbt
 script: |

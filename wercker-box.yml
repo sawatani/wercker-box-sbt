@@ -13,7 +13,7 @@ script: |
   sudo apt-get update -y
   sudo apt-get install -y openjdk-7-jdk
   java -version
-  sudo update-java-alternatives -s java-7-openjdk-amd64
+  sudo update-java-alternatives -s java-1.7.0-openjdk-amd64
   java -version
 
   echo "deb https://dl.bintray.com/sbt/debian /" | sudo tee -a /etc/apt/sources.list.d/sbt.list
